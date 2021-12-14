@@ -33,7 +33,7 @@ class User {
       name : json['name'],
       email : json['email'],
       about : json['about'],
-      isDarkMode : json['isDarkMood'],
+      isDarkMode : json['isDarkMode'],
   );
 
   Map<String, dynamic> toJson() =>{

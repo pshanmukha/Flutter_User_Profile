@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       child: Builder(
         builder: (context) => MaterialApp(
           debugShowCheckedModeBanner: false,
-          //theme: ThemeProvider.of(context),
+          theme: ThemeProvider.of(context),
           title: title,
           home:  ProfilePage(),
         ),
